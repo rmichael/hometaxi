@@ -1,10 +1,54 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>home TAXI</title>
-</head>
-<body>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="hometaxi.css"> 
+        <title>Home Taxi</title>
+        <link rel="shortcut icon" type="image/x-icon" href="images/logo.jpg">
+        <!-- Load React. -->
+        <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
 
-</body>
+        <!-- Load our React component. -->
+        <script type="text/babel" src="like_button.js"></script>`
+    </head>
+    <body>
+        <div class="body-div">
+            <div class="menu-div">
+                <div class="menu-up"></div>
+                <div class="menu-text">HOME TAXI</div>
+                <div class="menu-number">04919619 - 71713871</div>
+                <div class="menu-item" onclick="alert('hello world')">About Us</div>
+                <div class="menu-item">Services</div>
+                <div class="menu-item">Reviews</div>
+                <div class="menu-item">Contact Us</div>
+                <div class="menu-item">Book Now</div>
+            </div>
+            <div class="subpage">
+                <div class="subpage-header">
+                   HISTORY
+                </div>
+                <div id="like_button_container"></div>
+                <div class="subpage-item">
+                    <p>Home Taxi founded in 2009.</p>
+                     <p>Wecover all Lebanon.</p>
+                      <p>Always on time.</p>  
+                      <p>Safe cars.</p>  
+                      <p>Classy drivers.</p>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <footer>  
+            <div class="footer-div">
+                <div class="footer-item">About Us</div>
+                <div class="footer-item">Services</div>
+                <div class="footer-item">Reviews</div>
+                <div class="footer-item">Contact Us</div>
+            </div>
+        </footer>
+
+    </body>
 </html>

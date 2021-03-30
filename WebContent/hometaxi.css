@@ -1,0 +1,91 @@
+body {
+  background-color: white;
+  width: 100%;
+  margin: auto;
+}
+
+footer {
+	width: 100%;
+	background-color: black;
+	margin: auto;
+}
+.body-div {
+	padding-left: 0px;
+    padding-top: 0px;
+}
+.menu-div {
+	width: 1200px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: 0 auto;
+}
+
+.menu-up {
+	width: 0; 
+	height: 0; 
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 35px solid red;
+}
+.menu-text {
+    text-align: center;
+	width: 200px;
+	font-size: 34px;
+	font-weight: bold;
+}
+.menu-number {
+	text-align: center;
+	width: 200px;
+	font-size: 22px;
+	font-weight: bold;
+	float: left;
+	padding-right: 100px;
+}
+.menu-item {
+	text-align: center;
+    color: rgb(20, 20, 20);
+    font-size: 20px;
+    font-weight: bold;
+    word-wrap:break-word;
+	cursor:pointer;
+	float: left;
+	padding-right: 50px;
+}
+.menu-item:hover {
+	color: rgb(196, 48, 48);
+}
+.footer-div {
+	width: 350px;
+	padding: 40px 40px;
+	margin: 0 auto;
+}
+.footer-item {
+	color: white;
+	font-weight: bold;
+	float: left;
+	text-align: center;
+    word-wrap:break-word;
+	cursor:pointer;
+	padding-right: 20px;
+}
+.footer-item:hover {
+	color: rgb(196, 48, 48);
+}
+.subpage {
+	padding-top: 50px;
+	padding-left: 250px;
+	margin: 0 auto;
+	height: 700px;
+	background-color: red;
+}
+.subpage-header {
+	font-size: 22px;
+	font-weight: bold;
+	color: white;
+}
+.subpage-item {
+	padding-top: 15px;
+	font-weight: bold;
+}
+
+	
